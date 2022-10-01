@@ -8,6 +8,8 @@ See docs: [https://ighibli.github.io/2017/03/28/Could-not-locate-device-support-
 
 Below command will try to unzip all new device support files to `/Applications/Xcode.app`.
 
+You can also unpack each individual device support file to /Applications/Xcode.app/Developer/Platforms/iPhoneOS.platform/DeviceSupport
+
 ```sh
 sudo ./deploy.py
 ```
